@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            display: flex;
+            margin: 40px;
+            justify-content: space-between;
+        }
+        h1{
+            text-align: center;
+        }
+        .content-1, .content-2, .content-3{
+            background-color: grey;
+            text-align: center;
+            padding: 30px;
+            width: 20%;
+            display: flex;
+            flex-direction: column; 
+            position: relative;
+        }
+        .title1, .title2, .title3 {
+            background-color: rgb(255, 0, 0);
+            text-align: right;
+            margin: 0;
+            padding: 10px; 
+            position: absolute;
+            top: 0;
+            right: 0;
+        } 
+       @media screen and (max-with: 500px)   {
+        .content{
+            text-align: center;
+            margin: 40px;
+            justify-content: space-between;
+        }
+        h1{
+            text-align: center;
+        }
+        .content-1, .content-2, .content-3{
+            background-color: grey;
+            text-align: center;
+            padding: 30px;
+            width: 20%;
+            display: flex;
+            flex-direction: column; 
+            position: relative;
+			margin: 40px;
+        }
+        .title1, .title2, .title3 {
+            background-color: rgb(255, 0, 0);
+            text-align: right;
+            margin: 0;
+            padding: 10px; 
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+       }
+    </style>
+</head>
+<body>
+    <h1 >our menu</h1>
+    <div class="content">
+        <div class="content-1">
+            <h3 class="title1">Tanjia</h3>
+            <p>Tanjia (or tanjiya) is an iconic dish in Moroccan cuisine, originating from the city of Marrakech. It's a kind of meat stew, typically made with lamb or beef, marinated in a blend of traditional spices, then slowly cooked in a sealed clay pot.</p>
+        </div>
+
+        <div class="content-2">
+            <h3 class="title2">couscous</h3>
+            <p>Couscous is made from tiny granules of durum wheat or semolina, which are steamed until fluffy. It's often served with a stew of meat and vegetables.</p>
+        </div>
+
+        <div class="content-3">
+            <h3 class="title3">Tajin</h3>
+            <p>A tagine typically consists of slow-cooked meat (such as lamb, chicken, or beef) or fish, along with vegetables, fruits, and a blend of spices. Common ingredients include onions, tomatoes, garlic, olives, preserved lemons, and a variety of herbs and spices such as cumin, coriander, saffron, and cinnamon.</p>
+        </div>
+    </div>
+</body>
+</html>
